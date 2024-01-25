@@ -5,17 +5,14 @@ using UnityEngine;
 public class Task2Script : MonoBehaviour
 {
     // Start is called before the first frame update
-    public float bookprice = 5;
-    public float copies = 5;
-
+    public float bookprice;
+    public float copies;
     void Start()
     {
-        float a = bookprice;
-        float b = copies;
-
         float c = bookprice * copies * 0.6f + 3 + (0.75f *(copies-1));
-
-        Debug.Log("the value of profit is:" + c);
+        float d = bookprice * copies - c;
+        Debug.Log("Task 2: the value of book cost is:"+c);
+        Debug.Log("Task 2: the value of book profit is:"+d);
     }
 
     // Update is called once per frame
