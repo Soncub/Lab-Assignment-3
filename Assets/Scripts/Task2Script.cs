@@ -14,11 +14,4 @@ public class Task2Script : MonoBehaviour
         Debug.Log("Task 2: the value of book cost is: "+c);
         Debug.Log("Task 2: the value of book profit is: "+d);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-       
-    
-    }
 }

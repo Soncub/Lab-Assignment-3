@@ -39,16 +39,17 @@ public class Task1 : MonoBehaviour
             {
                 LetterGrade = "E";
             }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
         Debug.Log("10 Weeks");
         Debug.Log("5 Modules in 10 weeks 50%*0.15");
         Debug.Log("10 readings in 10 weeks 100%");
         Debug.Log("3 quiz in 10 weeks 30%");
         Debug.Log("5 assignments in 10 weeks 50%");
         Debug.Log("instructor taught it before 0%");
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
     }
 }

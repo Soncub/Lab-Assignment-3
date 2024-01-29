@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Task3Script : MonoBehaviour
 {
-    // Start is called before the first frame update
     public int pay;
     void Start()
     {
@@ -20,11 +19,5 @@ public class Task3Script : MonoBehaviour
         Debug.Log("Task 3: # of $10 bills is "+e);
         Debug.Log("Task 3: # of $5 bills is "+f);
         Debug.Log("Task 3: # of $1 bills is "+g);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
